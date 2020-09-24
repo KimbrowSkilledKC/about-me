@@ -10,19 +10,30 @@ h2 {
 
 /*The margin being set to 20px allows for the amount of space I declared to be set around the element. The padding allows for 20px between the element and the content itself.*/
 
-div {
+#container {
     background-color: white;
     color: black;
-    align-content: center;
-    width: 50%;
     margin: 20px;
     padding: 20px;
     font-family: Asap, sans-serif;
+}
+
+.right-col {
+    float: right;
+}
+
+.left-col {
+    float: none;
+}
+
+.clearfix {
+    clear: both;
 }
 
 a {
     color: #A64AC9;
     border: solid;
     border-radius: 200px;
+    padding: 10px;
     border-width: thin;
 }
