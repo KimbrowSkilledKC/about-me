@@ -1,0 +1,28 @@
+body {
+    color: #A64AC9;
+    background-color: black;
+}
+
+h2 {
+    color: #A64AC9;
+}
+
+
+/*The margin being set to 20px allows for the amount of space I declared to be set around the element. The padding allows for 20px between the element and the content itself.*/
+
+div {
+    background-color: white;
+    color: black;
+    align-content: center;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    font-family: Asap, sans-serif;
+}
+
+a {
+    color: #A64AC9;
+    border: solid;
+    border-radius: 200px;
+    border-width: thin;
+}
